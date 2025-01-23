@@ -2,6 +2,9 @@ Este proyecto permite conectarse a la API de Invertir Online (IOL) para consulta
 Además, se realizan análisis sobre los activos, como distribución de valorización por tipo de activo y conversión de valores a USD MEP.
 
 #Características del Proyecto
+Dependencias: pandas numpy matplotlib requests
+Viene incorporada una linea de codigo para instalar las dependencias.
+
 ## 1. Conexión a la API de Invertir Online
 Agrega tus credenciales en un archivo ".env"
 Conexión mediante el endpoint de autenticación de la API de IOL.
@@ -38,3 +41,9 @@ Arroja el total en USD MEP para cada tipo de activo y el total valorizado del po
 Muestra la distribución del total valorizado en USD MEP por tipo de activo.
 ### Gráfico de Barras
 Gráfico para cada tipo de activo mostrando el simbolo y su valorización en USD MEP.
+
+# Disclaimer
+Este proyecto es una herramienta de análisis y no constituye asesoramiento financiero. Usa los datos con precaución y consulta con un profesional antes de tomar decisiones de inversión.
+
+
+
